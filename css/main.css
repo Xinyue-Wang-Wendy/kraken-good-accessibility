@@ -122,3 +122,39 @@ article p {
 article div :first-child {
   text-indent: 0;
 }
+
+article div :first-child::first-line {
+  color: #1e7c74;
+  font-style: italic;
+}
+
+figure {
+  margin: 1.5rem 0;
+}
+
+figure img {
+  border: 1px solid #259f95;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+}
+
+figcaption {
+  padding: 0 1rem;
+  font-style: italic;
+  text-align: center;
+}
+
+article footer {
+  background-color: #259f95;
+  background-image: none;
+  border-radius: 6px 6px 0 0;
+  color: #fff;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  background-image: url("../images/anchors.svg");
+  color: #fff;
+}
